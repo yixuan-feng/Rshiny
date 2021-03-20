@@ -6,7 +6,7 @@ library(tidyverse)
 
 
 #import data
-hotels <- read.csv("/Users/summer/Downloads/hotel_bookings.csv")
+hotels <- read.csv("hotel_bookings.csv")
 #data transformation
 hotels <- as.data.frame(hotels)
 #tidy data: select factors mainly infect the hotel booking price
